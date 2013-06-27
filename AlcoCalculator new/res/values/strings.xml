@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlcoCalculator</string>
+    <string name="SetDateTime">Date and Time</string>
+    <string name="spinner_fromlist">Date and Time :</string>
+    <string name="DrinkName">Drink Name :</string>
+    <string name="Volume">Volume in ml. :</string><string name="AlcoholPercent">Alcohol Percent :</string><string name="Image">Image:</string>
+</resources>
