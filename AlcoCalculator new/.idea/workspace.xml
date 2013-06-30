@@ -32,10 +32,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/AndroidManifest.xml" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371058701186" ignored="false" />
     <file path="/Main.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371250223863" ignored="false" />
-    <file path="/fragment.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372351744244" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/AlcoCalculator/Manifest.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371674252278" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/AlcoCalculator/R.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371055632284" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/AlcoCalculator/BuildConfig.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371055670516" ignored="false" />
+    <file path="/fragment.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372526154044" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/AlcoCalculator/Manifest.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372458952240" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/AlcoCalculator/R.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372458952240" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/AlcoCalculator/BuildConfig.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372459339043" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371055670516" ignored="false" />
     <file path="$PROJECT_DIR$/../../chap5 old/res/layout/main.xml" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371055702911" ignored="false" />
     <file path="/DrinksMainList.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371058932203" ignored="false" />
@@ -48,13 +48,17 @@
     <file path="/DrinksMainListFragment.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372366005949" ignored="false" />
     <file path="/MainActivity.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371919877550" ignored="false" />
     <file path="/AddEditDrinkActivity.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371673971945" ignored="false" />
-    <file path="/AddEditDrinkFragment.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372366273276" ignored="false" />
-    <file path="/addeditdrink.xml" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371674909291" ignored="false" />
+    <file path="/AddEditDrinkFragment.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372526373669" ignored="false" />
+    <file path="/addeditdrink.xml" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372525981057" ignored="false" />
     <file path="/DrinksTemplatesListFragment.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371904011441" ignored="false" />
     <file path="/datetime.xml" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1371940529204" ignored="false" />
     <file path="/strings.xml" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372082479588" ignored="false" />
     <file path="/Drink.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372365363956" ignored="false" />
     <file path="/AlcoCalculatorDatabaseHelper.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372365580548" ignored="false" />
+    <file path="$PROJECT_DIR$/actionbarsherlock/AndroidManifest.xml" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372413310455" ignored="false" />
+    <file path="$PROJECT_DIR$/actionbarsherlock/project.properties" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372413322804" ignored="false" />
+    <file path="/a.groovy" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372426437662" ignored="false" />
+    <file path="/TemplatesListFragment.java" changelist="67555eb4-a078-49c3-8a5a-760dca29b601" time="1372428925863" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,53 +74,7 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AddEditDrinkFragment.java" line="47" class="com.example.AlcoCalculator.AddEditDrinkFragment" package="com.example.AlcoCalculator">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AddEditDrinkFragment.java" line="72" class="com.example.AlcoCalculator.AddEditDrinkFragment" package="com.example.AlcoCalculator">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AddEditDrinkFragment.java" line="156" class="com.example.AlcoCalculator.AddEditDrinkFragment" package="com.example.AlcoCalculator">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -177,7 +135,7 @@
       <file leaf-file-name="addeditdrink.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/addeditdrink.xml">
           <provider editor-type-id="text-editor">
-            <state line="95" column="19" selection-start="4636" selection-end="4636" vertical-scroll-proportion="0.0">
+            <state line="21" column="44" selection-start="959" selection-end="959" vertical-scroll-proportion="-10.2">
               <folding />
             </state>
           </provider>
@@ -186,19 +144,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="datetime.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/datetime.xml">
           <provider editor-type-id="text-editor">
-            <state line="5" column="82" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+            <state line="15" column="199" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,7 +159,7 @@
       <file leaf-file-name="DrinksMainListFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/DrinksMainListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="117" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.0">
+            <state line="62" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +168,49 @@
       <file leaf-file-name="AddEditDrinkFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AddEditDrinkFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.29044834">
+            <state line="118" column="37" selection-start="5456" selection-end="5456" vertical-scroll-proportion="0.84517306">
+              <folding>
+                <element signature="e#3779#5480#0" expanded="true" />
+                <element signature="e#5469#5470#0" expanded="true" />
+                <element signature="e#5598#5899#0" expanded="true" />
+                <element signature="e#5888#5889#0" expanded="true" />
+                <element signature="e#6011#7345#0" expanded="true" />
+                <element signature="e#7334#7335#0" expanded="true" />
+                <element signature="e#7459#9097#0" expanded="true" />
+                <element signature="e#9086#9087#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drinks_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/drinks_list_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="263" selection-end="416" vertical-scroll-proportion="-2.38">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropdown_drinks_templates.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/dropdown_drinks_templates.xml">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlcoCalculatorDatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AlcoCalculatorDatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,7 +228,7 @@
       <file leaf-file-name="Drink.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/Drink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
+            <state line="29" column="5" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -253,8 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/DrinksMainList.java" />
-        <option value="$PROJECT_DIR$/res/layout/summary_panel_fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/Main.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/SummaryPanelFragment.java" />
@@ -264,10 +253,12 @@
         <option value="$PROJECT_DIR$/res/layout/datetime.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/addeditdrink.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/Drink.java" />
         <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/AlcoCalculatorDatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/DrinksMainListFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/TemplatesListFragment.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/addeditdrink.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AlcoCalculator/AddEditDrinkFragment.java" />
       </list>
     </option>
@@ -352,28 +343,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlcoCalculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlcoCalculatorDatabaseHelper.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlcoCalculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlcoCalculator new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -425,7 +394,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -435,11 +404,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -483,6 +452,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -509,19 +491,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -630,36 +599,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1660" height="1010" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279099" sideWeight="0.7573271" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272841" sideWeight="0.7573271" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32581455" sideWeight="0.67409146" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32518798" sideWeight="0.67409146" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3235639" sideWeight="0.22277847" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32590857" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24267292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23915592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3235639" sideWeight="0.7772215" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32121924" sideWeight="0.7765958" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24906133" sideWeight="0.6729191" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24847001" sideWeight="0.67318755" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24843554" sideWeight="0.6764361" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24749373" sideWeight="0.67409146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32590857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -728,20 +697,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/SummaryPanelFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/DrinkTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="7" selection-start="355" selection-end="356" vertical-scroll-proportion="0.0">
@@ -762,31 +717,11 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="36" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/datetime.xml">
-      <provider editor-type-id="text-editor">
-        <state line="5" column="82" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/SummaryPanelFragment.java">
@@ -796,33 +731,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/addeditdrink.xml">
-      <provider editor-type-id="text-editor">
-        <state line="95" column="19" selection-start="4636" selection-end="4636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/Drink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
+        <state line="29" column="5" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AlcoCalculatorDatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="31" selection-start="9327" selection-end="9327" vertical-scroll-proportion="0.7670549">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dropdown_drinks_templates.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="48" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -839,15 +757,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/DrinksMainListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="117" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.0">
+        <state line="62" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/datetime.xml">
+      <provider editor-type-id="text-editor">
+        <state line="15" column="199" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AlcoCalculatorDatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="755" selection-end="755" vertical-scroll-proportion="0.45333335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dropdown_drinks_templates.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/drinks_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="263" selection-end="416" vertical-scroll-proportion="-2.38">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/addeditdrink.xml">
+      <provider editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="959" selection-end="959" vertical-scroll-proportion="-10.2">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AlcoCalculator/AddEditDrinkFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.29044834">
-          <folding />
+        <state line="118" column="37" selection-start="5456" selection-end="5456" vertical-scroll-proportion="0.84517306">
+          <folding>
+            <element signature="e#3779#5480#0" expanded="true" />
+            <element signature="e#5469#5470#0" expanded="true" />
+            <element signature="e#5598#5899#0" expanded="true" />
+            <element signature="e#5888#5889#0" expanded="true" />
+            <element signature="e#6011#7345#0" expanded="true" />
+            <element signature="e#7334#7335#0" expanded="true" />
+            <element signature="e#7459#9097#0" expanded="true" />
+            <element signature="e#9086#9087#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

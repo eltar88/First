@@ -10,15 +10,17 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" android:layout_weight="10">
 
-        <Spinner
-                android:layout_width="fill_parent"
+        <Button
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/drinkstemplates" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
-                android:spinnerMode="dropdown" style="@style/Sherlock.__Widget.Holo.Spinner"/>
+                android:text="@string/btnSelect_from_templates"
+                android:id="@+id/buttonSelectFromTeplates" android:layout_gravity="center_horizontal|top"/>
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
+            <TextView android:id="@+id/EditDrinkId" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:visibility="gone"/>
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

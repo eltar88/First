@@ -4,5 +4,5 @@
     <string name="SetDateTime">Date and Time</string>
     <string name="spinner_fromlist">Date and Time :</string>
     <string name="DrinkName">Drink Name :</string>
-    <string name="Volume">Volume in ml. :</string><string name="AlcoholPercent">Alcohol Percent :</string><string name="Image">Image:</string>
+    <string name="Volume">Volume in ml. :</string><string name="AlcoholPercent">Alcohol Percent :</string><string name="Image">Image:</string><string name="btnSelect_from_templates">Select from templates</string>
 </resources>

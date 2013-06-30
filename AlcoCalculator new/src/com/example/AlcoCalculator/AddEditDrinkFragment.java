@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,14 +39,19 @@ public class AddEditDrinkFragment extends SherlockDialogFragment {
         TextView volume = (TextView) this.getView().findViewById(R.id.editVolume);
         volume.setText(String.valueOf(drinkTemplate.getVolume()));
 
+        TextView date = (TextView) this.getView().findViewById(R.id.datetime);
+        date.setText("");
+
         ImageView img = (ImageView) this.getView().findViewById(R.id.imageViewAddEdit);
         int id = this.getActivity().getResources().getIdentifier("drawable/" + drinkTemplate.getImage(), "drawable", this.getActivity().getPackageName());
         img.setImageResource(id);
     }
 
     public void SetControlsByDrink(Drink drink) {
+        TextView id = (TextView) this.getView().findViewById(R.id.EditDrinkId);
+        id.setText(drink.getId());
 
-        TextView name = (TextView) this.getView().findViewById(R.id.editDrinkName);
+       TextView name = (TextView) this.getView().findViewById(R.id.editDrinkName);
         name.setText(drink.getName());
 
         TextView percent = (TextView) this.getView().findViewById(R.id.editAlcoPercent);
@@ -58,28 +64,59 @@ public class AddEditDrinkFragment extends SherlockDialogFragment {
         date.setText(String.valueOf(drink.getTime()));
 
         ImageView img = (ImageView) this.getView().findViewById(R.id.imageViewAddEdit);
-        int id = this.getActivity().getResources().getIdentifier("drawable/" + drink.getImage(), "drawable", this.getActivity().getPackageName());
-        img.setImageResource(id);
+        int ImageId = this.getActivity().getResources().getIdentifier("drawable/" + drink.getImage(), "drawable", this.getActivity().getPackageName());
+        img.setImageResource(ImageId);
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        if (getArguments() != null) {
+            // Get value from previous action with id of drink
+            long id;
+            id = getArguments().getLong("id", 0);
+            Toast.makeText(getActivity().getApplicationContext(),
+                    String.valueOf("id sent"), Toast.LENGTH_LONG).show();
+            Drink d = databaseHelper.getDrinkById(String.valueOf(id));
+            SetControlsByDrink(d);
+        }
+        super.onActivityCreated(savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View view = inflater.inflate(R.layout.addeditdrink, container);
         getDialog().setTitle("Hello");
+        databaseHelper = new AlcoCalculatorDatabaseHelper(getActivity());
 
-        long id=0;
-        if (getArguments() != null) {
-            id = getArguments().getLong("id", 0);
-            Toast.makeText(getActivity().getApplicationContext(),
-                    String.valueOf("id sent"), Toast.LENGTH_LONG).show();
-        }
         Button save = (Button) view.findViewById(R.id.ButtonSaveDrink);
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity().getApplicationContext(),
                         String.valueOf("Save"), Toast.LENGTH_LONG).show();
-                getDialog().cancel();
+
+                TextView id= (TextView) view.findViewById(R.id.EditDrinkId);
+                TextView name = (TextView) view.findViewById(R.id.editDrinkName);
+                TextView percent = (TextView) view.findViewById(R.id.editAlcoPercent);
+                TextView volume = (TextView) view.findViewById(R.id.editVolume);
+                TextView date = (TextView) view.findViewById(R.id.datetime);
+                ImageView img = (ImageView) view.findViewById(R.id.imageViewAddEdit);
+                if (name.getText() .toString().trim().equals("")) {
+                    name.setError("Name required!");
+                } else if (volume.getText() .toString().trim().equals("")) {
+                    volume.setError("volume Required");
+                } else if (date.getText() .toString().trim().equals("")) {
+                    date.setError("Date required!");
+                }else if(percent.getText() .toString().trim().equals("")) {
+                    percent.setError("Percent of alcohol required");
+                }else
+                {
+                   if(!id.getText().toString().trim().equals(""))
+                   {
+                      databaseHelper.updateDrink(id.getText().toString(),date.getText().toString(),name.getText().toString(),Float.valueOf(percent.getText().toString()),Float.valueOf(volume.getText().toString()),"");
+                 getDialog().cancel();
+                   }
+                }
             }
         });
 
@@ -92,28 +129,30 @@ public class AddEditDrinkFragment extends SherlockDialogFragment {
                 getDialog().cancel();
             }
         });
-        //set spinner
-        databaseHelper = new AlcoCalculatorDatabaseHelper(getActivity());
-        Spinner s = (Spinner) view.findViewById(R.id.drinkstemplates);
-        s.setAdapter(new DrinksTemplatesDropdownListAdapter(getActivity(), databaseHelper.getAllDrinksTemplatesCursor()));
-        s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+
+        Button b = (Button) view.findViewById(R.id.buttonSelectFromTeplates);
+        b.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                TextView textid = (TextView) view.findViewById(R.id.drinktemplate_id);
-
-                if (textid != null) {
-                    String templateId = String.valueOf(textid.getText());
-                    Toast.makeText(getActivity().getApplicationContext(),
-                            templateId, Toast.LENGTH_LONG).show();
-
-                    DrinkTemplate t = databaseHelper.getDrinkTemplateById(templateId);
-                    SetControlsByTemplateDrink(t);
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                //To change body of implemented methods use File | Settings | File Templates.
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                final DrinksTemplatesDropdownListAdapter adapter = new DrinksTemplatesDropdownListAdapter(getActivity(), databaseHelper.getAllDrinksTemplatesCursor());
+                builder.setAdapter(adapter, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, final int which) {
+                        //To change body of implemented methods use File | Settings | File Templates.
+                        new Handler().post(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(getActivity().getApplicationContext(),
+                                        String.valueOf(adapter.getItemId(which)), Toast.LENGTH_LONG).show();
+                                DrinkTemplate t = databaseHelper.getDrinkTemplateById(String.valueOf(adapter.getItemId(which)));
+                                SetControlsByTemplateDrink(t);
+                            }
+                        });
+                    }
+                });
+                builder.show();
             }
         });
 
@@ -152,10 +191,6 @@ public class AddEditDrinkFragment extends SherlockDialogFragment {
             }
         });
 
-        if (id != 0) {
-            Drink d = databaseHelper.getDrinkById(String.valueOf(id));
-            SetControlsByDrink(d);
-        }
         return view;
     }
 
@@ -164,7 +199,6 @@ public class AddEditDrinkFragment extends SherlockDialogFragment {
 
         public DrinksTemplatesDropdownListAdapter(Context context, Cursor cursor) {
             super(context, cursor, true);
-
             this.context = context;
         }
 
@@ -189,4 +223,5 @@ public class AddEditDrinkFragment extends SherlockDialogFragment {
             image.setImageResource(id);
         }
     }
+
 }

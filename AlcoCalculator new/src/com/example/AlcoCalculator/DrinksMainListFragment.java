@@ -64,8 +64,6 @@ public class DrinksMainListFragment extends SherlockListFragment {
                 editNameDialog.setArguments(bundle);
                 editNameDialog.show(fm, "fragment_edit_name");
 
-                DrinksMainListFragment fragmentById = (DrinksMainListFragment) getFragmentManager().findFragmentById(R.id.DrinksMainListfragment);
-
                 return true;
             }
             case R.id.delete_drink:

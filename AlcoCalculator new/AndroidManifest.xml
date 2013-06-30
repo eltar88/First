@@ -13,7 +13,5 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"/>
-        <activity android:name=".SummaryPanelFragment"/>
-        <activity android:name=".AddEditDrinkFragment"/>
     </application>
 </manifest>
